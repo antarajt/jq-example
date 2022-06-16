@@ -1,0 +1,191 @@
+h1{
+    background: rgb(91, 121, 91);
+    color: white;
+}
+.pannel{
+
+
+    background-color: aquamarine;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.content{
+
+    display: none;
+    background-color: beige;
+    font-size: 18px;
+    padding: 15px;
+}
+
+form{
+
+    color: green;
+    background-color: antiquewhite;
+}
+
+.f-item{
+
+  
+}
+.result div{
+
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    float: left;
+}
+
+#box2, #box3, #box4{
+
+    padding: 20px;
+    border: 1px solid;
+    margin: 0 0 40px 0;
+}
+.boxbg{
+
+    background: pink;
+}
+
+
+.click1, .click2, .click3 {
+    padding: 8px;
+    display: block;
+    border: 1px solid #999;
+  }
+
+  .items{
+
+    border: 1px dashed blue;
+  }
+.delay{
+
+    height: 200px;
+    width: 100%;
+    background-color: whitesmoke;
+}
+  .delay div{
+
+    border: 1px solid ;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    float: left;
+
+  }
+
+  .first{
+
+    background-color: cadetblue;
+    left: 140px;
+
+  }
+  .second{
+
+    background-color: rgb(42, 26, 100);
+    left: 200px;
+  }
+
+  .clickme div{
+
+    background-color: #de9a44;
+    margin: 3px;
+    width: 80px;
+    height: 40px;
+    float: left;
+    display: none;
+  }
+
+  /* detach */
+
+  .pagey{
+
+    background-color: #eef;
+  }
+  #page{
+
+    padding: 20px;
+  }
+
+  .width{
+
+    
+  }
+  .inner{
+
+
+    width: 60px;
+    padding: 10px;
+    height: 50px;
+    float: left;
+    background-color: rebeccapurple;
+    margin: 5px;
+    cursor: pointer;
+    color: white;
+  }
+
+  .mod {
+    background: rgb(3, 141, 83);
+    cursor: default;
+    }
+
+/* wrap */
+
+    .wr {
+      border: 2px solid blue;
+    }
+    .wrap1 {
+      background: yellow;
+      margin: 4px;
+    }
+
+/* select */
+
+    .se {
+      color: blue;
+    }
+    .sel {
+      color: red;
+    }
+
+  /* scrool left */
+
+  .scr{
+    background: #ccc none repeat scroll 0 0;
+    border: 3px solid #666;
+    margin: 5px;
+    padding: 5px;
+    position: relative;
+    width: 500px;
+    height: 400px;
+    overflow: auto;
+  }
+  .scrp{
+
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid #666;
+    width: 1000px;
+    height: 1000px;
+  }
+
+  /* remove class */
+
+  .remove-class p {
+    margin: 4px;
+    font-size: 16px;
+    font-weight: bolder;
+  }
+  .blue {
+    color: blue;
+  }
+  .under {
+    text-decoration: underline;
+  }
+  .highlight {
+    background: yellow;
+  }
