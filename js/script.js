@@ -222,4 +222,16 @@ $( "div.scr" ).scrollLeft( 600 );
 $( "p" ).even().removeClass( "blue" );
 $( "p" ).even().removeClass( "" );
 
+
+	// animate
+	$('#go').click(function(){
+		$('#block').animate({
+			width: "80%",
+		    opacity: 0.4,
+		    marginLeft: "100px",
+		    fontSize: "3em",
+		    borderWidth: "10px"
+		}, 1500);
+	});
+
 });
